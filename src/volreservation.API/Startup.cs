@@ -29,8 +29,10 @@ namespace volreservation.API
                 options.UseInMemoryDatabase("volreservation-api-in-memory");
             });
 
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
-            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IVolRepository, VolRepository>();
+            services.AddScoped<IVolService, VolService>();
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
+            services.AddScoped<ICompanyService, CompanyService>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

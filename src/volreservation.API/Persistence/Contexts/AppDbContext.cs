@@ -32,6 +32,12 @@ namespace volreservation.API.Persistence.Contexts
             // builder.Entity<Vol>().Property(p => p.Name).IsRequired().HasMaxLength(50);
             // builder.Entity<Vol>().Property(p => p.QuantityInPackage).IsRequired();
             // builder.Entity<Vol>().Property(p => p.UnitOfMeasurement).IsRequired();
+
+            builder.Entity<Vol>().HasData
+            (
+                new Vol { Id = 100 }, // Id set manually due to in-memory provider
+                new Vol { Id = 101 }
+            );
         }
     }
 }
