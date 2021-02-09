@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 namespace volreservation.API
 
 {
@@ -7,5 +8,7 @@ namespace volreservation.API
         public string Password {get; set;}
         public string Name {get; set;}
         public string Sector {get; set;}
+
+        public IList<Vol> Vols {get; set;} = new List<Vol>();
     }
 }
