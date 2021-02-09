@@ -7,8 +7,16 @@ namespace volreservation.API.Services
 {
     public class VolService : IVolService
     {
-        public async Task<IEnumerable<Vol>> ListAsync()
+        private readonly IVolRepository _volRepository;
+
+        public VolService(IVolRepository volRepository)
         {
+            this._volRepository = volRepository;
+        }
+
+        public async Task<IEnumerable<Vol>> ListAsync()
+        { 
+            return await _volRepository.ListAsync();
         }
     }
 }
