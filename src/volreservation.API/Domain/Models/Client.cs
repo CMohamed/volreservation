@@ -1,4 +1,4 @@
-namespace volreservation.API
+namespace volreservation.API.Domain.Models
 {
     public class Client {
         public int Id {get; set;}

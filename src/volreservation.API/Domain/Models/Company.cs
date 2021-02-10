@@ -1,6 +1,5 @@
 using System.Collections.Generic;
-namespace volreservation.API
-
+namespace volreservation.API.Domain.Models
 {
     public class Company {
         public int Id {get; set;}

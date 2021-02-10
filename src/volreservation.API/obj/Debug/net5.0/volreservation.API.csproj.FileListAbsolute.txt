@@ -1,0 +1,7 @@
+C:\WS\.NET\proj001\src\volreservation.API\obj\Debug\net5.0\volreservation.API.csprojAssemblyReference.cache
+C:\WS\.NET\proj001\src\volreservation.API\obj\Debug\net5.0\volreservation.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS\.NET\proj001\src\volreservation.API\obj\Debug\net5.0\volreservation.API.AssemblyInfoInputs.cache
+C:\WS\.NET\proj001\src\volreservation.API\obj\Debug\net5.0\volreservation.API.AssemblyInfo.cs
+C:\WS\.NET\proj001\src\volreservation.API\obj\Debug\net5.0\volreservation.API.csproj.CoreCompileInputs.cache
+C:\WS\.NET\proj001\src\volreservation.API\obj\Debug\net5.0\volreservation.API.MvcApplicationPartsAssemblyInfo.cs
+C:\WS\.NET\proj001\src\volreservation.API\obj\Debug\net5.0\volreservation.API.MvcApplicationPartsAssemblyInfo.cache

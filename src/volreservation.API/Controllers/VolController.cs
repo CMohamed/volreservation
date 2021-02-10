@@ -22,5 +22,4 @@ namespace volreservation.API
             return vols;
         }
     }
-    }
 }
